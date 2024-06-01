@@ -1,0 +1,211 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the navigation bar */
+nav {
+    background-image: linear-gradient(100deg, #465351, #283130);
+    text-align: center; /* Align text in the center */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+}
+
+nav ul li a:hover {
+    background-color: #093646;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(100deg, #465351, #283130);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #0cf0fc;
+}
+
+#agentForm, #missionForm {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.574);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+#agentForm h2, #missionForm h2 {
+    margin-bottom: 10px;
+    color: #100e0e;
+}
+
+#agentForm label, #missionForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#agentForm input[type="text"],
+#agentForm input[type="number"],
+#agentForm button,
+#missionForm input[type="text"],
+#missionForm input[type="number"],
+#missionForm textarea,
+#missionForm select,
+#missionForm button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#agentForm button, #missionForm button {
+    background-color: #1993d5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#agentForm button:hover, #missionForm button:hover {
+    background-color: #555;
+}
+
+#agentList, #missionList, #aboutMissions {
+    background-color: #f4efef;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+#agentList h2, #missionList h2, #aboutMissions h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#agentList ul, #missionList ul, #completedMissions {
+    list-style-type: none;
+    padding: 0;
+}
+
+#agentList li, #missionList li, #completedMissions li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #068c9b;
+    border-radius: 5px;
+    position: relative;
+}
+
+#agentList button, #missionList button {
+    margin-left: 10px;
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#agentList button:hover, #missionList button:hover {
+    background-color: #cc0000;
+}
+
+#chatContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#chatMessages {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message.sender {
+    text-align: right;
+}
+
+.message.receiver {
+    text-align: left;
+}
+
+#inputContainer {
+    display: flex;
+    align-items: center;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#sendButton {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#sendButton:hover {
+    background-color: #0056b3;
+}
+
+.p {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Text color */
+    background-color: #f9f9f9; /* Background color */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 5px; /* Border radius */
+    padding: 20px; /* Padding */
+    margin-bottom: 20px; /* Bottom margin */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+.p:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow on hover */
+    opacity: 100px;
+}
+
+
+
